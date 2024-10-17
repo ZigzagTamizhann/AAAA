@@ -1,0 +1,42 @@
+/* CSS styles for the video-sharing website */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f44336;
+  padding: 20px;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+#videos-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.video {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+}
+
+.video h2 {
+  margin: 10px 0;
+}
+
+.video p {
+  color: #888;
+}
+
